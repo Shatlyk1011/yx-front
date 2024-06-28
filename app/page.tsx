@@ -5,7 +5,7 @@ import Programs from '@/components/Programs'
 
 export default function Home() {
   return (
-    <main className="w-screen min-h-screen overflow-x-hidden">
+    <main className="min-h-screen relative overflow-x-hidden">
       <Navigation />
       <Hero />
       <Programs />

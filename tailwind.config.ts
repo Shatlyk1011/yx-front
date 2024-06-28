@@ -11,6 +11,16 @@ const config: Config = {
       spacing: {
         "13": "13.3px",
       },
+
+      keyframes: {
+        "logo-carousel": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - 2rem))" },
+        },
+      },
+      animation: {
+        "logo-carousel": "logo-carousel 64s linear infinite",
+      },
     },
   },
   plugins: [],

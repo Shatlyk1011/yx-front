@@ -5,24 +5,24 @@
 @layer base {
 
   html {
-    /* font-size: clamp(31%, 0.8vw, 62.5%); */
+    font-size: clamp(31%, 0.7vw, 62.5%);
   }
 
   body {
     font-synthesis-weight: none;
     text-rendering: optimizeLegibility;
     background: #fff;
-    /* font-size: 1.6rem; */
-    font-family: 'Roboto', sans-serif
+    font-size: 1.6rem ;
+    font-family: 'Roboto', sans-serif;
+    scrollbar-gutter: 1.6rem
+    
   }
 }
 
 .base-max-width {
-  @apply max-w-[1280px] mx-auto;
+  @apply max-w-[128rem] mx-auto;
 }
 
 .infinite-bg {
-  /* @apply h-[90px] relative w-[500%] top-[-49px] z-[-1] left-[-200%];
-  background: url("https://avatars.mds.yandex.net/get-lpc/10116223/d31a3a4a-b615-4424-bec4-7dd3685be1cf/orig?width=5462&height=257")  repeat-x;
-  background-repeat: repeat-x; */
+
 }

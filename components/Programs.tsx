@@ -1,17 +1,36 @@
-import { FC } from 'react';
+import { FC } from "react";
 
-interface Props { };
+import InfiniteCarousel from '@/components/ui/InfiniteCarousel'
 
-const Index: FC<Props> = () => {
+const carouselItems: CarouselItem[] = [
+  { text: 'FRONTEND', iconSrc: './images/dino.webp', classes: 'bg-[#ff5f00]' },
+  { text: 'HTML', iconSrc: './images/fingers.webp', classes: 'bg-[#2ae881]' },
+  { text: 'CSS', iconSrc: './images/dino.webp', classes: 'bg-[#ff5f00]' },
+  { text: 'JAVASCRIPT', iconSrc: './images/fingers.webp', classes: 'bg-[#b6a4ff]' },
+  { text: 'INTERN', iconSrc: './images/fingers.webp', classes: 'bg-[#2ae881]' },
+
+  { text: 'FRONTEND', iconSrc: './images/dino.webp', classes: 'bg-[#b6a4ff]' },
+  { text: 'HTML', iconSrc: './images/fingers.webp', classes: 'bg-[#2ae881]' },
+  { text: 'CSS', iconSrc: './images/dino.webp', classes: 'bg-[#ff5f00]' },
+  { text: 'JAVASCRIPT', iconSrc: './images/fingers.webp', classes: 'bg-[#b6a4ff]' },
+  { text: 'INTERN', iconSrc: './images/fingers.webp', classes: 'bg-[#2ae881]' },
+
+]
+
+const Index = () => {
   return (
-    <section className="base-max-width pt-[90px] px-[35px]">
-      <div className='py-[35px]'>
-        <div className='flex space-x-[100px]'>
-          <h2 className='flex-1 text-[44px] tracking-tight font-extrabold leading-[44px]'>Стажировка <br />  для начинающих <br /> специалистов</h2>
-          <p className='flex-1 '></p>
+    <section className="base-max-width pt-[9.0rem] px-[3.5rem]">
+      <div className="py-[3.5rem] bg-[#f3f4f4] rounded-[36px]">
+        <div className="flex space-x-[10rem] px-[35px] mb-[12rem]">
+          <h2 className="flex-1 text-[4.4rem] tracking-tight font-extrabold leading-[4.4rem]">Стажировка <br />  для начинающих <br /> специалистов</h2>
+          <p className="flex-1 text-black/60 text-[2rem] leading-9 font-medium">Станьте частью одной из команд фронтенд- <br /> разработчиков в Яндексе.
+          </p>
         </div>
+        <InfiniteCarousel items={carouselItems} />
       </div>
     </section>
   )
 };
-export default Index
+export default Index;
+
+
