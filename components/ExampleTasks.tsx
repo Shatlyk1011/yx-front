@@ -1,5 +1,4 @@
-
-const samples = ["Развивают Нейро", "Создают геймификацию на трекинге заказа в Яндекс Лавке", "Улучшают интерфейсы в Маркете", "Совершенствуют интерфейс кабинета подписчика Яндекс Плюса", "Создают лендинги, проводят редизайн и добавляют новые функции в Кинопоиске", "Разрабатывают продуктовые эксперименты для главной страницы в Яндекс Go"]
+import { Samples } from "@/data";
 
 const Index = () => {
 
@@ -29,7 +28,7 @@ const Index = () => {
 
           {/* right side */}
           <div className='flex flex-1 flex-col space-y-[1.5rem] '>
-            {samples.map(text => (
+            {Samples.map(text => (
               <div key={text} className='py-[5.7rem] relative pr-[3.2rem] pl-[13.3rem] rounded-[36px] bg-[#F3F4F4] flex items-center'>
                 <img src="./icons/yx-dot.svg" alt="dot icon" className='absolute top-[50%] translate-y-[-50%] left-[2.8rem]' />
                 <p className='text-[2.4rem] font-medium tracking-tighter'>{text}</p>

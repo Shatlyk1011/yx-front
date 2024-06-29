@@ -7,6 +7,7 @@ import Requirements from '@/components/Requirements'
 import Services from '@/components/Services'
 import Selection from '@/components/Selection'
 import Expectations from '@/components/Expectations'
+import Advices from '@/components/Advices'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Services />
       <Selection />
       <Expectations />
+      <Advices />
     </main>
   );
 }

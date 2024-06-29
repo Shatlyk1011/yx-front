@@ -1,15 +1,8 @@
 import Image from 'next/image';
 
-import Button from '@/components/ui/button'
+import { navLinks } from '@/data';
 
-const links = [
-  { title: 'Стажировки', href: '#' },
-  { title: 'Ивенты', href: '#' },
-  { title: 'Образовательные проекты', href: '#' },
-  { title: 'Олимпиады', href: '#' },
-  { title: 'Амбассадоры', href: '#' },
-  { title: 'CodeRun', href: '#' },
-]
+import Button from '@/components/ui/button'
 
 const Index = () => {
 
@@ -27,7 +20,7 @@ const Index = () => {
 
         <nav className="shadow-[0_4px_25px_0_rgba(0,0,0,0.08)] bg-white p-[1.3rem] rounded-full">
           <ul className='flex space-x-[3.2rem] tracking-tight '>
-            {links.map(({ title, href }) => (
+            {navLinks.map(({ title, href }) => (
 
               <li key={title} className='transition hover:text-[#b6a4ff]'>
                 <a href={href}>{title}</a>
