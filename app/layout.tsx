@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Roboto_Mono } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const roboto = Roboto_Mono({ subsets: ['cyrillic'], weight: ["300", "400", "500", "700",] });
+const roboto = Roboto({ subsets: ['cyrillic'], weight: ["300", "400", "500", "700",] });
 
 export const metadata: Metadata = {
 };

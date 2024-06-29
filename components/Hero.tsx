@@ -18,7 +18,7 @@ const Index = () => {
       ))}
 
       <div className='text-center mt-[1rem]'>
-        <span className='py-[0.8rem] px-[1rem] text-sm font-medium rounded-full bg-[#ddd]'>JavaScript</span>
+        <span className='py-[0.8rem] px-[1rem] text-[1.4rem] font-medium rounded-full bg-[#ddd]'>JavaScript</span>
       </div>
       <p className='text-center mt-[1.9rem]'>Москва, Санкт-Петербург, Екатеринбург, Нижний Новгород, Симферополь, Минск</p>
 

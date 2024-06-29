@@ -12,7 +12,6 @@ const carouselItems: CarouselItem[] = [
   { text: 'CSS', iconSrc: './images/dino.webp', classes: 'bg-[#ff5f00]' },
   { text: 'JAVASCRIPT', iconSrc: './images/fingers.webp', classes: 'bg-[#b6a4ff]' },
   { text: 'INTERN', iconSrc: './images/fingers.webp', classes: 'bg-[#2ae881]' },
-
 ]
 
 const Index = () => {

@@ -22,7 +22,7 @@ const Index = () => {
                   </div>
                 </div>
 
-                <img src="./icons/flower.svg" className='mt-auto absolute bottom-0 right-0' alt="flower icon" />
+                <img src="./icons/flower.svg" className='mt-auto w-[10rem] absolute bottom-0 right-0' alt="flower icon" />
               </div>
             </div>
           </div>

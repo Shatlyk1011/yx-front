@@ -5,6 +5,7 @@ import Programs from '@/components/Programs'
 import ExampleTasks from '@/components/ExampleTasks'
 import Requirements from '@/components/Requirements'
 import Services from '@/components/Services'
+import Selection from '@/components/Selection'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <ExampleTasks />
       <Requirements />
       <Services />
+      <Selection />
     </main>
   );
 }
