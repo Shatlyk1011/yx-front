@@ -1,6 +1,6 @@
 import InfiniteCarousel from '@/components/ui/InfiniteCarousel'
 
-export const ProgramCarousel: CarouselItem[] = [
+const ProgramCarousel: CarouselItem[] = [
   { text: "FRONTEND", iconSrc: "./images/dino.webp", classes: "bg-[#ff5f00]" },
   { text: "HTML", iconSrc: "./images/fingers.webp", classes: "bg-[#2ae881]" },
   { text: "CSS", iconSrc: "./images/dino.webp", classes: "bg-[#ff5f00]" },

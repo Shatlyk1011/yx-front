@@ -1,13 +1,13 @@
-import { ButtonHTMLAttributes, FC } from 'react';
+import { ButtonHTMLAttributes, FC, ReactNode } from 'react';
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
-  children: string
+  children: ReactNode | string
   classes?: string
 };
 
 const Index: FC<Props> = ({ children, classes, ...props }) => {
   return (
-    <button className={`p-[1.3rem] m-[0.35rem] tracking-tight bg-black text-white rounded-full leading-[100%] hover:bg-primary hover:text-black transition duration-200 ${classes}`} {...props}  >
+    <button className={` m-[0.35rem]   text-white rounded-full   ${classes}`} {...props}  >
       {children}
     </button>
   )

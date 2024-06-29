@@ -1,6 +1,8 @@
 import Button from '@/components/ui/button'
 import Image from 'next/image';
 
+import { siteConfig } from '@/site';
+
 const imgs = [
   { src: './icons/books.svg', classes: ' top-[4rem] left-[12rem]' },
   { src: './icons/smile.svg', classes: 'left-[17.7rem] top-[21rem]' },
@@ -23,7 +25,9 @@ const Index = () => {
       <p className='text-center mt-[1.9rem]'>Москва, Санкт-Петербург, Екатеринбург, Нижний Новгород, Симферополь, Минск</p>
 
       <div className='px-[3.6rem] w-full '>
-        <Button classes='w-full text-center text-[2.4rem] h-[9.8rem] rounded-full m-0 mt-[1.9rem] p-0'>Подать заявку</Button>
+        <Button classes="w-full text-center text-[2.4rem] mt-[1.9rem]">
+          <a href={siteConfig.formUrl} className="bg-black tracking-tight hover:bg-primary hover:text-black px-[1.3rem] w-full leading-[9.8rem] rounded-full inline-block transition duration-200" target="_blank">Подать заявку</a>
+        </Button>
       </div>
       <div className='w-[160%] h-[9rem] top-[-4.9rem] left-[-30%] z-[-1] bg-repeat-x relative'>
         <Image src="/images/infinite-bg.png" className='w-full h-full object-cover' fill={true} alt="infinite-bg" />

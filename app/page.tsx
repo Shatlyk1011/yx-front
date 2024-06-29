@@ -10,6 +10,7 @@ import Expectations from '@/components/Expectations'
 import Advices from '@/components/Advices'
 import Testimonials from '@/components/Testimonials'
 import Materials from '@/components/Materials'
+import CallToAction from '@/components/CallToAction'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Advices />
       <Testimonials />
       <Materials/>
+      <CallToAction />
     </main>
   );
 }
