@@ -23,10 +23,21 @@ const Index = () => {
       <div className="py-[3.5rem] bg-[#f3f4f4] rounded-[36px]">
         <div className="flex space-x-[10rem] px-[35px] mb-[12rem]">
           <h2 className="flex-1 text-[4.4rem] tracking-tight font-extrabold leading-[4.4rem]">Стажировка <br />  для начинающих <br /> специалистов</h2>
-          <p className="flex-1 text-black/60 text-[2rem] leading-9 font-medium">Станьте частью одной из команд фронтенд- <br /> разработчиков в Яндексе.
+          <p className="flex-1 text-black/60 text-[2rem] leading-9 font-semibold">Станьте частью одной из команд фронтенд- <br /> разработчиков в Яндексе.
           </p>
         </div>
-        <InfiniteCarousel items={carouselItems} />
+        <InfiniteCarousel>
+          {carouselItems.map(({ iconSrc, text, classes }, index) => (
+            <div key={index} className="flex relative h-[8.5rem] ">
+              <img
+                src={iconSrc}
+                className="w-full h-full"
+                alt={text}
+              />
+              <p className={`text-[8rem] font-semibold tracking-tight leading-[9rem] px-[0.8rem] ${classes}`}>{text}</p>
+            </div>
+          ))}
+        </InfiniteCarousel>
       </div>
     </section>
   )

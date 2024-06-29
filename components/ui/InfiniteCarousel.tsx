@@ -1,12 +1,12 @@
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 
 interface CarouselProps {
-  items: CarouselItem[];
+  children: ReactNode;
   animate?: boolean;
   shadows?: boolean;
 }
 
-const Index: FC<CarouselProps> = ({ items, animate = true, shadows = false }) => {
+const Index: FC<CarouselProps> = ({ children, animate = true, shadows = false }) => {
   return (
     <div
       className="flex overflow-hidden"
@@ -19,16 +19,7 @@ const Index: FC<CarouselProps> = ({ items, animate = true, shadows = false }) =>
           key={index}
           className={`flex shrink-0 ${animate && "animate-logo-carousel"}`}
         >
-          {items.map(({ iconSrc, text, classes }, index) => (
-            <div key={index} className="flex relative h-[8.5rem] ">
-              <img
-                src={iconSrc}
-                className="w-full h-full"
-                alt={text}
-              />
-              <p className={`text-[8rem] font-bold tracking-tight leading-[9rem] px-[0.8rem] ${classes}`}>{text}</p>
-            </div>
-          ))}
+          {children}
         </div>
       ))}
     </div>
