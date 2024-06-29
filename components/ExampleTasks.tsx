@@ -1,10 +1,7 @@
-import { FC } from 'react';
-
-interface Props { };
 
 const samples = ["Развивают Нейро", "Создают геймификацию на трекинге заказа в Яндекс Лавке", "Улучшают интерфейсы в Маркете", "Совершенствуют интерфейс кабинета подписчика Яндекс Плюса", "Создают лендинги, проводят редизайн и добавляют новые функции в Кинопоиске", "Разрабатывают продуктовые эксперименты для главной страницы в Яндекс Go"]
 
-const Index: FC<Props> = () => {
+const Index = () => {
 
   return (
     <section className='pt-[9rem] pb-[8rem]'>
@@ -12,7 +9,7 @@ const Index: FC<Props> = () => {
         <div className='flex space-x-[1.8rem]'>
           {/* left side */}
           <div className='flex flex-1 flex-col justify-between'>
-            <h4 className='text-[5.4rem] tracking-tight leading-[100%] font-medium'>Примеры задач, <br /> которые решают <br /> стажёры</h4>
+            <p className='text-[5.4rem] tracking-tight leading-[100%] font-medium'>Примеры задач, <br /> которые решают <br /> стажёры</p>
             <div className='flex items-end space-x-[1.8rem]'>
               <div className='flex-1'>
                 <img src="./dino-gif.gif" alt="" />

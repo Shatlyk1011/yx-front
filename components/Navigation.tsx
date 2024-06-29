@@ -1,19 +1,18 @@
 import Image from 'next/image';
-import { FC } from 'react';
 
 import Button from '@/components/ui/button'
 
-interface Props { };
+const links = [
+  { title: 'Стажировки', href: '#' },
+  { title: 'Ивенты', href: '#' },
+  { title: 'Образовательные проекты', href: '#' },
+  { title: 'Олимпиады', href: '#' },
+  { title: 'Амбассадоры', href: '#' },
+  { title: 'CodeRun', href: '#' },
+]
 
-const Index: FC<Props> = () => {
-  const links = [
-    { title: 'Стажировки', href: '#' },
-    { title: 'Ивенты', href: '#' },
-    { title: 'Образовательные проекты', href: '#' },
-    { title: 'Олимпиады', href: '#' },
-    { title: 'Амбассадоры', href: '#' },
-    { title: 'CodeRun', href: '#' },
-  ]
+const Index = () => {
+
   return (
     <div className="w-full fixed top-0 left-0 h-[8rem] px-[3.5rem] py-[1.8rem] z-[100]">
       <div className='base-max-width flex space-x-[1.6rem] items-center justify-between'>
