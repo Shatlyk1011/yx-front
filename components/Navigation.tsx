@@ -14,7 +14,7 @@ const links = [
 const Index = () => {
 
   return (
-    <div className="w-full fixed top-0 left-0 h-[8rem] px-[3.5rem] py-[1.8rem] z-[100]">
+    <header className="w-full fixed top-0 left-0 h-[8rem] px-[3.5rem] py-[1.8rem] z-[100]">
       <div className='base-max-width flex space-x-[1.6rem] items-center justify-between'>
         <div className='flex'>
           <a href="#" className='w-[4.4rem] h-[4.4rem] relative'>
@@ -38,7 +38,7 @@ const Index = () => {
 
         <Button>Хочу в Яндекс</Button>
       </div>
-    </div>
+    </header>
   )
 };
 export default Index

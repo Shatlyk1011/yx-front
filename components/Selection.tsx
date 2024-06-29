@@ -22,7 +22,7 @@ const selection = [
 const Index = () => {
 
   return (
-    <section className='pt-[9rem] pb-[8rem]'>
+    <section className='pt-[9rem] '>
       <div className="base-max-width">
         <div className='flex space-x-[1.8rem]'>
           {/* left side */}
