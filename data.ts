@@ -82,7 +82,7 @@ export const Selection = [
 
 export const Advices = [
   {
-    imgSrc: "./icons/advices/profile-1.png",
+    imgSrc: "./images/advices/profile-1.png",
     title: "Дмитрий Минаев",
     subtitle: "Руководитель группы в Вертикалях",
     paragraphs: [
@@ -93,7 +93,7 @@ export const Advices = [
   },
 
   {
-    imgSrc: "./icons/advices/profile-2.png",
+    imgSrc: "./images/advices/profile-2.png",
     title: "Никита Чураков",
     subtitle: "Руководитель службы разработки",
     paragraphs: [
@@ -102,7 +102,7 @@ export const Advices = [
   },
 
   {
-    imgSrc: "./icons/advices/profile-3.png",
+    imgSrc: "./images/advices/profile-3.png",
     title: "Даниил Горохов ",
     subtitle: "Разработчик интерфейсов",
     paragraphs: [
@@ -112,7 +112,7 @@ export const Advices = [
   },
 
   {
-    imgSrc: "./icons/advices/profile-4.png",
+    imgSrc: "./images/advices/profile-4.png",
     title: "Николай Митрофанов ",
     subtitle: "Руководитель группы разработки ",
     paragraphs: [
@@ -122,7 +122,7 @@ export const Advices = [
   },
 
   {
-    imgSrc: "./icons/advices/profile-5.png",
+    imgSrc: "./images/advices/profile-5.png",
     title: "Соня Волынская ",
     subtitle: "Руководитель группы разработки интерфейсов WMS в Яндекс Лавке ",
     paragraphs: [
@@ -130,4 +130,60 @@ export const Advices = [
       "Финал — это знакомство с командой или тимлидом. Здесь может ждать всё, от технических вопросов до беседы про аниме-фигурки. Если добрались сюда, помните — вы уже достойны места в Яндексе!",
     ],
   },
+];
+
+export const Testimonials = [
+  {
+    imgSrc: "./images/testimonials/testimonial-1.png",
+    title: "Иван Фомин",
+    subtitle: "Стажёр-разработчик интерфейсов в Доставке",
+    paragraph: "Лучший способ понять, как работают бизнес-процессы в крупной компании",
+  },
+  {
+    imgSrc: "./images/testimonials/testimonial-2.png",
+    title: "Роман Данцер",
+    subtitle: "Стажёр-разработчик интерфейсов в Вертикалях",
+    paragraph: "Попасть на стажировку проще, чем кажется",
+  },
+  {
+    imgSrc: "./images/testimonials/testimonial-3.png",
+    title: "Геннадий Кирилин",
+    subtitle: "Стажёр-разработчик интерфейсов в Поиске и Супераппе",
+    paragraph: "Решаешь реальные задачи и чувствуешь, как растёшь",
+  },
+];
+
+export const MaterialsTabs = [
+  [
+    { title: "CoreRun", href: "https://coderun.yandex.ru/promo" },
+    { title: "LeetCode", href: "https://leetcode.com/" },
+    { title: "Блог Хелскета", href: "https://ru.hexlet.io/blog" },
+    { title: "freeCodeCamp", href: "https://www.freecodecamp.org/news/" },
+    { title: "Сщветы Половнёва и Петрова", href: "https://bureau.ru/soviet/polovnyov-petrov/" },
+    { title: "Sidebar", href: "https://sidebar.io/break/" },
+    { title: "MDN", href: "https://developer.mozilla.org/ru/docs/Learn" },
+    {
+      title: "Лекции Школы разработки интерфейсов",
+      href: "https://www.youtube.com/c/%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D0%B4/videos",
+    },
+    {
+      title: "Наш канал фронтенд-разработки",
+      href: "https://www.youtube.com/c/%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D0%B4/videos",
+    },
+    {
+      title: "Повторное введение в JavaScript",
+      href: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Language_overview",
+    },
+    { title: "Современный учебник JavaScript", href: "https://learn.javascript.ru/" },
+    { title: "Введение в React", href: "https://ru.react.js.org/tutorial/tutorial.html" },
+    { title: "Библиотека React", href: "https://react.dev/" },
+    { title: "BigFrontEnd.dev", href: "https://bigfrontend.dev/" },
+    { title: "Дока", href: "https://doka.guide/" },
+  ],
+  [
+    { title: "Алгоритмы и структуры данных", href: "https://coderun.yandex.ru/promo" },
+    { title: "Структуры данных", href: "https://coderun.yandex.ru/promo" },
+    { title: "Тренировки по алгоритмам", href: "https://coderun.yandex.ru/promo" },
+    { title: "Алгоритмические собеседования в Яндекс", href: "https://coderun.yandex.ru/promo" },
+  ],
 ];

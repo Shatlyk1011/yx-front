@@ -33,7 +33,7 @@ const Index = () => {
                 <div className="flex flex-col">
                   <div className="">
                     <span className="inline-block text-white bg-black rounded-full px-[1rem] py-[0.7rem] leading-[100%] text-[1.4rem] mb-[1.8rem]">Шаг {idx + 1}</span>
-                    <div className="text-[2.7rem] tracking-tighter font-medium leading-[115%] mb-[35px]">{title}</div>
+                    <div className="text-[2.7rem] tracking-tighter font-medium leading-[115%] mb-[3.5rem]">{title}</div>
                   </div>
                     {paragraphs.map((p, idx) => (
                       <p key={idx} className="text-[2rem] leading-[110%] font-medium text-black/70 tracking-tight [&:not(:first-child)]:mt-[0.9rem] ">{p}</p>

@@ -3,7 +3,7 @@ import { Expectations } from "@/data";
 const Index = () => {
   return (
     <section className="base-max-width pt-[9rem]">
-      <h2 className='text-[7.1rem] leading-[100%] text-center font-medium tracking-[-0.06em] mb-[35px]'>Что вас ждёт</h2>
+      <h2 className='text-[7.1rem] leading-[100%] text-center font-medium tracking-[-0.06em] mb-[3.5rem]'>Что вас ждёт</h2>
       <div className="flex flex-wrap">
         {Expectations.map(({ title, iconPath }, idx) => (
           <div key={idx} className="p-[0.67rem]  w-[50%]">

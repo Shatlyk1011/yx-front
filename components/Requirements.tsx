@@ -4,7 +4,7 @@ const Index = () => {
 
   return (
     <section className="base-max-width pt-[8.9rem] px-[3.5rem]">
-      <h2 className='text-[7.1rem] leading-[100%] text-center font-medium tracking-[-0.06em] mb-[35px]'>Что нужно уметь</h2>
+      <h2 className='text-[7.1rem] leading-[100%] text-center font-medium tracking-[-0.06em] mb-[3.5rem]'>Что нужно уметь</h2>
 
       <div>
         {Requirements.map((text, idx) => (
