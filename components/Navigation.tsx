@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import { navLinks } from '@/data';
+import { navLinks } from '@/utils/data';
 
 import Button from '@/components/ui/button'
 

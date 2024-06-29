@@ -1,4 +1,4 @@
-import { Expectations } from "@/data";
+import { Expectations } from "@/utils/data";
 
 const Index = () => {
   return (

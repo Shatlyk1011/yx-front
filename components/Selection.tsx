@@ -1,4 +1,4 @@
-import { Selection } from "@/data";
+import { Selection } from "@/utils/data";
 
 const Index = () => {
 

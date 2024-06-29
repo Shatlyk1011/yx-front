@@ -1,7 +1,7 @@
 import Button from '@/components/ui/button'
 import Image from 'next/image';
 
-import { siteConfig } from '@/site';
+import { siteConfig } from '@/utils/site';
 
 const imgs = [
   { src: './icons/books.svg', classes: ' top-[4rem] left-[12rem]' },

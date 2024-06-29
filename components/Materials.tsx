@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react';
-import { MaterialsTabs } from '@/data';
+import { MaterialsTabs } from '@/utils/data';
 import { ChevronIcon } from '@/components/ui/ChevronIcon';
 
 const Tabs = ["Всё про фронтенд- и веб-разработку", "Алгоритмы"];

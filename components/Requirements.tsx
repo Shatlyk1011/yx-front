@@ -1,4 +1,4 @@
-import { Requirements } from "@/data";
+import { Requirements } from "@/utils/data";
 
 const Index = () => {
 

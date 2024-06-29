@@ -1,4 +1,4 @@
-import { Testimonials } from "@/data";
+import { Testimonials } from "@/utils/data";
 
 import TestimonialModal from '@/components/ui/TestimonialModal'
 

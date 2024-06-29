@@ -1,4 +1,4 @@
-import { Advices } from '@/data'
+import { Advices } from '@/utils/data'
 
 const Index = () => {
   return (

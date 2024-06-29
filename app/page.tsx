@@ -11,6 +11,7 @@ import Advices from '@/components/Advices'
 import Testimonials from '@/components/Testimonials'
 import Materials from '@/components/Materials'
 import CallToAction from '@/components/CallToAction'
+import Faq from '@/components/Faq'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <Testimonials />
       <Materials/>
       <CallToAction />
+      <Faq />
     </main>
   );
 }

@@ -1,7 +1,7 @@
 import InfiniteCarousel from '@/components/ui/InfiniteCarousel'
 import Button from '@/components/ui/button'
 
-import { siteConfig } from '@/site';
+import { siteConfig } from '@/utils/site';
 
 const ProgramCarousel: CarouselItem[] = [
   { text: "БЭКЕНД", iconSrc: "./images/dino.webp", classes: "bg-[#ff5f00]" },
