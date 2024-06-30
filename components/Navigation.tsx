@@ -12,7 +12,7 @@ const Index = () => {
   const [isOpen, setOpen] = useState(false)
 
   return (
-    <header className="w-full fixed top-0 left-0 h-[8rem] px-[3.5rem] py-[1.8rem] z-[50]">
+    <header className="w-full fixed top-0 left-0 h-[8rem] base-x-padding py-[1.8rem] z-[50] md:px-[1.9rem]">
       <div className='base-max-width flex space-x-[1.6rem]  items-center justify-between xl:space-x-0'>
         <div className='flex z-[100]'>
           <a href="#" className='w-[4.4rem] h-[4.4rem] relative'>

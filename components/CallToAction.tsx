@@ -17,9 +17,9 @@ const ProgramCarousel: CarouselItem[] = [
 
 const Index = () => {
   return (
-    <section className="base-max-width pt-[9.0rem] px-[3.5rem]">
-      <div className="py-[3.5rem] bg-primary rounded-[3.6rem]">
-        <div className="flex gap-[10rem] px-[3.5rem] mb-[12rem]">
+    <section className="base-max-width pt-[9.0rem] base-x-padding">
+      <div className="base-y-padding bg-primary rounded-[3.6rem]">
+        <div className="flex gap-[10rem] base-x-padding mb-[12rem]">
           <p className=" text-[4.4rem] tracking-tight font-semibold leading-[4.4rem] w-[80%] text-balance">Начните карьеру со стажировки в Young&&Yandex
           </p>
           <p className=" text-black/60 text-[2rem] leading-9 text-balance font-semibold">Станьте частью одной из команд фронтенд‑разработчиков в Яндексе</p>

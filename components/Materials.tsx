@@ -20,7 +20,7 @@ const Index = () => {
 
         </div>
       </div>
-      <div className="flex flex-wrap px-[3.5rem] mt-[3.5rem]">
+      <div className="flex flex-wrap base-x-padding mt-[3.5rem]">
         {MaterialsTabs[selectedTab].map(({ title, href }, idx) => (
           <a href={href} target='_blank' key={idx} className="w-[50%] p-[0.9rem] group cursor-pointer">
             <div className='px-[2.2rem] py-[2.7rem] h-full bg-[#f3f4f4] rounded-[3.6rem] flex justify-between items-center'>

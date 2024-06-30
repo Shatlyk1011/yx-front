@@ -4,7 +4,7 @@ const Index = () => {
 
   return (
     <section className='pt-[9rem] '>
-      <div className="base-max-width px-[3.5rem]">
+      <div className="base-max-width base-x-padding">
         <div className='flex space-x-[1.8rem]'>
           {/* left side */}
           <div className='flex flex-1 flex-col justify-between'>
@@ -29,7 +29,7 @@ const Index = () => {
           {/* right side */}
           <div className='flex flex-1 flex-col space-y-[1.5rem] '>
             {Selection.map(({ title, paragraphs }, idx) => (
-              <article key={idx} className='p-[3.5rem] rounded-[36px] bg-[#F3F4F4] flex items-center'>
+              <article key={idx} className='base-padding rounded-[36px] bg-[#F3F4F4] flex items-center'>
                 <div className="flex flex-col">
                   <div className="">
                     <span className="inline-block text-white bg-black rounded-full px-[1rem] py-[0.7rem] leading-[100%] text-[1.4rem] mb-[1.8rem]">Шаг {idx + 1}</span>

@@ -4,7 +4,7 @@ const Index = () => {
 
   return (
     <section className='pt-[9rem] '>
-      <div className="base-max-width px-[3.5rem]">
+      <div className="base-max-width base-x-padding">
         <div className='flex space-x-[1.8rem]'>
           {/* left side */}
           <div className='flex flex-1 flex-col justify-between'>

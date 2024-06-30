@@ -25,7 +25,7 @@ const Card = ({ item }: { item: typeof InTouch[0] }) => {
   return (
     <div className="w-1/2 p-[0.89rem] ">
       <a href={siteConfig.siteUrl} target="_blank" className="">
-        <div className="group p-[3.5rem] bg-[#f3f4f4] rounded-[3.5rem]">
+        <div className="group base-padding bg-[#f3f4f4] rounded-[3.5rem]">
           <header className="w-1/2 text-balance text-[2.7rem] leading-[110%] font-medium">{item.title}</header>
 
           <div className="h-[22rem]">
