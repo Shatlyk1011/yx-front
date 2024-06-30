@@ -4,11 +4,11 @@ const Index = () => {
 
   return (
     <section className='pt-[9rem] '>
-      <div className="base-max-width">
+      <div className="base-max-width px-[3.5rem]">
         <div className='flex space-x-[1.8rem]'>
           {/* left side */}
           <div className='flex flex-1 flex-col justify-between'>
-            <p className='text-[5.4rem] tracking-tight leading-[100%] font-medium'>Примеры задач, <br /> которые решают <br /> стажёры</p>
+            <p className='text-[5.4rem] tracking-tight leading-[100%] font-medium'>Как проходит отбор</p>
             <div className='flex items-end space-x-[1.8rem]'>
               <div className='flex-1'>
                 <img src="./dino-gif.gif" alt="" />

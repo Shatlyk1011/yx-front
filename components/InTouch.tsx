@@ -29,7 +29,7 @@ const Card = ({ item }: { item: typeof InTouch[0] }) => {
           <header className="w-1/2 text-balance text-[2.7rem] leading-[110%] font-medium">{item.title}</header>
 
           <div className="h-[22rem]">
-            <img src={item.imgSrc} className="w-full h-full" alt={item.title} />
+            <img src={item.imgSrc} className="w-full h-full object-cover" alt={item.title} />
           </div>
 
           <div className="flex justify-between items-center mt-[1.6rem]">

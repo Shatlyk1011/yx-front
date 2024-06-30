@@ -14,6 +14,7 @@ import CallToAction from '@/components/CallToAction'
 import Faq from '@/components/Faq'
 import InTouch from '@/components/InTouch'
 import CallToAction2 from '@/components/CallToAction2'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       <Faq />
       <InTouch />
       <CallToAction2 />
+      <Footer />
     </main>
   );
 }

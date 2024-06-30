@@ -23,5 +23,6 @@
 }
 
 .infinite-bg {
-
+  background: url('./../public/images/infinite-bg.png') #ffffff 50% 100% / 273rem 12.8rem repeat-x;
+  background-position-x: 0rem;
 }

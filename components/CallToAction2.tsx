@@ -20,7 +20,7 @@ const links = [
 
 const Index = () => {
   return (
-    <section className="base-max-width pt-[9rem] relative pb-[20rem]">
+    <section className="base-max-width pt-[9rem] relative ">
       <h2 className='text-[5.7rem] leading-[100%] text-center font-medium tracking-[-0.06em] mb-[3.5rem]'>Напишите если <br /> остались вопросы: <br />
         <a className="text-[#b6a4ff]" type="email" href="mailto:intern@yandex-team.ru">intern@yandex-team.ru</a>
       </h2>
