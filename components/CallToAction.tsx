@@ -26,7 +26,7 @@ const Index = () => {
         </div>
         <InfiniteCarousel>
           {[...ProgramCarousel, ...ProgramCarousel].map(({ iconSrc, text, classes }, index) => (
-            <div key={index} className="flex relative h-[8.5rem] ">
+            <div key={index} className="flex relative h-[8.5rem] animate-appear">
               <img
                 src={iconSrc}
                 className="w-full h-full"

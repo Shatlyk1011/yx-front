@@ -6,7 +6,7 @@ import { YoutubeIcon } from "./icons/YoutubeIcon";
 
 const miniIcons = [
   { imgSrc: './icons/arrows.svg', classes: 'w-[13rem] h-[10.5rem] left-[10rem] top-[-39.8rem]' },
-  { imgSrc: './icons/cloud.svg', classes: 'w-[11.5rem] h-[7.6rem] top-[-13.6rem] left-[-4rem]' },
+  { imgSrc: './icons/cloud.svg', classes: 'w-[11.5rem] h-[7.6rem] top-[-13.6rem] left-[-2rem]' },
   { imgSrc: './icons/heart.svg', classes: 'w-[10.6rem] h-[10.6rem] top-[-3rem] right-[10rem]' },
   { imgSrc: './icons/rectangle.svg', classes: 'w-[10.6rem] h-[10.6rem] top-[17rem] left-[10rem]' },
   { imgSrc: './icons/flower.svg', classes: 'w-[9.8rem] h-[10.2rem] bottom-[0] right-[2rem]' },
@@ -45,7 +45,7 @@ const Index = () => {
 
       </div>
 
-      <div className="px-[1.5rem]">
+      <div className="px-[1.5rem] mt-[1.7rem]">
         <img src="./icons/yy-text.svg" className="w-full " alt="young & yandex text" />
       </div>
     </section>
