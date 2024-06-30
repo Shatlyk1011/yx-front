@@ -1,13 +1,13 @@
 import { InTouch } from "@/utils/data";
 
-import { ChevronIcon } from "./ui/ChevronIcon";
+import { ChevronIcon } from "./icons/ChevronIcon";
 
 import { siteConfig } from "@/utils/site";
 
 
 const Index = () => {
   return (
-    <section className="base-max-width pt-[9rem] pb-[20rem]">
+    <section className="base-max-width pt-[9rem]">
       <h2 className="text-[7.1rem] leading-[100%] text-center font-medium tracking-[-0.06em] mb-[3.5rem]">Будем на связи</h2>
 
       <div className="flex flex-wrap">
@@ -33,7 +33,7 @@ const Card = ({ item }: { item: typeof InTouch[0] }) => {
           </div>
 
           <div className="flex justify-between items-center mt-[1.6rem]">
-            <p className="w-1/2 text-[2rem] leading-[120%] text-black/60 ">{item.subtitle}</p>
+            <p className="w-1/2 text-[2rem] leading-[120%] text-black/60 tracking-tight">{item.subtitle}</p>
             <ChevronIcon className="w-[5.3rem] h-[5.3rem] transition duration-300 group-hover:fill-primary group-hover:text-black" />
           </div>
         </div>

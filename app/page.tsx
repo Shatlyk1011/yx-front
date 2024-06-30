@@ -13,6 +13,7 @@ import Materials from '@/components/Materials'
 import CallToAction from '@/components/CallToAction'
 import Faq from '@/components/Faq'
 import InTouch from '@/components/InTouch'
+import CallToAction2 from '@/components/CallToAction2'
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <CallToAction />
       <Faq />
       <InTouch />
+      <CallToAction2 />
     </main>
   );
 }

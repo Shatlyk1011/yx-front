@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import { siteConfig } from '@/utils/site';
 
-const imgs = [
+const icons = [
   { src: './icons/books.svg', classes: ' top-[4rem] left-[12rem]' },
   { src: './icons/smile.svg', classes: 'left-[17.7rem] top-[21rem]' },
   { src: './icons/cub.svg', classes: 'top-[19rem] right-[9.3rem]', }
@@ -15,7 +15,7 @@ const Index = () => {
     <section className='base-max-width relative pt-[2.6rem] overflow-x-visible mb-[-4.9rem] mt-[8rem]'>
       <h1 className='text-[9.8rem] font-medium leading-[103%] text-center px-[3.5rem] '>ФРОНТЕНД- <br /> РАЗРАБОТКА</h1>
 
-      {imgs.map(({ src, classes }) => (
+      {icons.map(({ src, classes }) => (
         <img key={src} src={src} className={`w-[8rem] h-[8rem] absolute ${classes}`} alt="svg" />
       ))}
 

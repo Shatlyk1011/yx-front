@@ -1,7 +1,7 @@
 'use client'
 import { FC, useState } from 'react';
 
-import { ChevronIcon } from './ChevronIcon';
+import { ChevronIcon } from '../icons/ChevronIcon';
 
 import { cn } from '@/utils';
 

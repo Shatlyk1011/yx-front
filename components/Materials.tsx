@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { MaterialsTabs } from '@/utils/data';
-import { ChevronIcon } from '@/components/ui/ChevronIcon';
+import { ChevronIcon } from '@/components/icons/ChevronIcon';
 
 const Tabs = ["Всё про фронтенд- и веб-разработку", "Алгоритмы"];
 
