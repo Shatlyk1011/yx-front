@@ -1,5 +1,5 @@
 export const siteConfig = {
-  formUrl: "https://yandex.ru/yaintern/frontend",
+  siteUrl: "https://yandex.ru/yaintern/frontend",
 };
 
 export type SiteConfig = typeof siteConfig;

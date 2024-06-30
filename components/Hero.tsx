@@ -26,7 +26,7 @@ const Index = () => {
 
       <div className='px-[3.6rem] w-full '>
         <Button classes="w-full text-center text-[2.4rem] mt-[1.9rem]">
-          <a href={siteConfig.formUrl} className="bg-black tracking-tight hover:bg-primary hover:text-black px-[1.3rem] w-full leading-[9.8rem] rounded-full inline-block transition duration-200" target="_blank">Подать заявку</a>
+          <a href={siteConfig.siteUrl} className="bg-black tracking-tight hover:bg-primary hover:text-black px-[1.3rem] w-full leading-[9.8rem] rounded-full inline-block transition duration-200" target="_blank">Подать заявку</a>
         </Button>
       </div>
       <div className='w-[160%] h-[9rem] top-[-4.9rem] left-[-30%] z-[-1] bg-repeat-x relative'>

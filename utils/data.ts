@@ -237,3 +237,16 @@ export const FaqAccordion = [
     paragraphs: ["Стажировка проходит круглый год, поэтому вы можете подать заявку в любое время."],
   },
 ];
+
+export const InTouch = [
+  {
+    title: "Подписывайтесь на рассылку",
+    imgSrc: "./images/mail.png",
+    subtitle: "Только полезные письма от команды Young&&Yandex",
+  },
+  {
+    title: "Присоединяйтесь к телеграм-каналу",
+    imgSrc: "./images/tg.webp",
+    subtitle: "Всё о стажировках в Яндексе и старте в IT",
+  },
+];

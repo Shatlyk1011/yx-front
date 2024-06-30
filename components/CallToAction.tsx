@@ -39,7 +39,7 @@ const Index = () => {
       </div>
 
       <Button classes="w-full text-center text-[2.4rem] mt-[1.9rem]">
-        <a href={siteConfig.formUrl} className="bg-black tracking-tight hover:bg-primary hover:text-black px-[1.3rem] w-full leading-[9.8rem] rounded-full inline-block transition duration-200" target="_blank">Подать заявку</a>
+        <a href={siteConfig.siteUrl} className="bg-black tracking-tight hover:bg-primary hover:text-black px-[1.3rem] w-full leading-[9.8rem] rounded-full inline-block transition duration-200" target="_blank">Подать заявку</a>
       </Button>
     </section>
   )
