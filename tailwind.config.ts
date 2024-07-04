@@ -6,6 +6,8 @@ const config: Config = {
     screens: {
       xl: { max: "1000px" },
       md: { max: "767px" },
+      sm: { max: "550px" },
+      xs: { max: "550px" },
     },
     extend: {
       colors: {

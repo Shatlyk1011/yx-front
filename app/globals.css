@@ -3,39 +3,37 @@
 @tailwind utilities;
 
 @layer base {
-
   html {
     font-size: clamp(31%, 0.8vw, 62.5%);
-
-    @apply md:text-[85%]
+    /* sm:text-[62.5%]; */
+    @apply md:text-[85%]  sm:text-[60%] xs:text-[45%];
   }
 
   body {
     font-synthesis-weight: none;
     text-rendering: optimizeLegibility;
     background: #fff;
-    font-size: 1.6rem ;
-    scrollbar-gutter: 1.6rem
-    
+    font-size: 1.6rem;
+    scrollbar-gutter: 1.6rem;
   }
 }
 
 .base-max-width {
-  @apply max-w-[128rem] mx-auto;
+  @apply mx-auto max-w-[128rem];
 }
 
 .infinite-bg {
-  background: url('./../public/images/infinite-bg.png') #ffffff 50% 100% / 273rem 12.8rem repeat-x;
+  background: url("./../public/images/infinite-bg.png") #ffffff 50% 100% / 273rem 12.8rem repeat-x;
   background-position-x: 0rem;
 }
 .base-padding {
-  @apply p-[3.5rem] md:p-[1.9rem]
+  @apply p-[3.5rem] md:p-[1.9rem];
 }
 
 .base-x-padding {
-  @apply px-[3.5rem] md:px-[1.9rem]
+  @apply px-[3.5rem] md:px-[1.9rem];
 }
 
 .base-y-padding {
-  @apply py-[3.5rem] md:py-[1.9rem]
+  @apply py-[3.5rem] md:py-[1.9rem];
 }

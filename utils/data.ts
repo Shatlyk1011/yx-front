@@ -159,7 +159,10 @@ export const MaterialsTabs = [
     { title: "LeetCode", href: "https://leetcode.com/" },
     { title: "Блог Хелскета", href: "https://ru.hexlet.io/blog" },
     { title: "freeCodeCamp", href: "https://www.freecodecamp.org/news/" },
-    { title: "Сщветы Половнёва и Петрова", href: "https://bureau.ru/soviet/polovnyov-petrov/" },
+    {
+      title: "Сщветы Половнёва и Петрова",
+      href: "https://bureau.ru/soviet/polovnyov-petrov/",
+    },
     { title: "Sidebar", href: "https://sidebar.io/break/" },
     { title: "MDN", href: "https://developer.mozilla.org/ru/docs/Learn" },
     {
@@ -174,17 +177,32 @@ export const MaterialsTabs = [
       title: "Повторное введение в JavaScript",
       href: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Language_overview",
     },
-    { title: "Современный учебник JavaScript", href: "https://learn.javascript.ru/" },
-    { title: "Введение в React", href: "https://ru.react.js.org/tutorial/tutorial.html" },
+    {
+      title: "Современный учебник JavaScript",
+      href: "https://learn.javascript.ru/",
+    },
+    {
+      title: "Введение в React",
+      href: "https://ru.react.js.org/tutorial/tutorial.html",
+    },
     { title: "Библиотека React", href: "https://react.dev/" },
     { title: "BigFrontEnd.dev", href: "https://bigfrontend.dev/" },
     { title: "Дока", href: "https://doka.guide/" },
   ],
   [
-    { title: "Алгоритмы и структуры данных", href: "https://coderun.yandex.ru/promo" },
+    {
+      title: "Алгоритмы и структуры данных",
+      href: "https://coderun.yandex.ru/promo",
+    },
     { title: "Структуры данных", href: "https://coderun.yandex.ru/promo" },
-    { title: "Тренировки по алгоритмам", href: "https://coderun.yandex.ru/promo" },
-    { title: "Алгоритмические собеседования в Яндекс", href: "https://coderun.yandex.ru/promo" },
+    {
+      title: "Тренировки по алгоритмам",
+      href: "https://coderun.yandex.ru/promo",
+    },
+    {
+      title: "Алгоритмические собеседования в Яндекс",
+      href: "https://coderun.yandex.ru/promo",
+    },
   ],
 ];
 
@@ -214,9 +232,7 @@ export const FaqAccordion = [
   },
   {
     title: "Смогу ли я совмещать учёбу и стажировку?",
-    paragraphs: [
-      "Да, в Яндексе гибкий график. Тем не менее, стажировка проходит по будням в рабочие часы.",
-    ],
+    paragraphs: ["Да, в Яндексе гибкий график. Тем не менее, стажировка проходит по будням в рабочие часы."],
   },
   {
     title: "Сколько длится стажировка?",

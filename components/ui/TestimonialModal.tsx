@@ -1,10 +1,10 @@
-import { FC } from 'react';
+import { FC } from "react";
 
 interface Props {
-  testimonial: any
-};
+  testimonial: any;
+}
 
 const Index: FC<Props> = ({ testimonial }) => {
-  return ('23')
+  return "23";
 };
-export default Index
+export default Index;
